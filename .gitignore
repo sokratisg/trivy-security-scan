@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.pytest_cache/
+.mypy_cache/
+trivy.json
+trivy-report.md
+trivy.sarif
+*.spdx.json
+*.cdx.json

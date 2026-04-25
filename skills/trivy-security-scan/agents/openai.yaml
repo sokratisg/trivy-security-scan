@@ -1,0 +1,4 @@
+interface:
+  display_name: "Trivy Security Scan"
+  short_description: "Scan projects with local Trivy"
+  default_prompt: "Use $trivy-security-scan to scan this project and recommend fixes for HIGH and CRITICAL findings."
