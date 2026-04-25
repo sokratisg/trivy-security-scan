@@ -66,6 +66,32 @@ python3 skills/trivy-security-scan/scripts/trivy_project_scan.py \
   --artifact-output trivy.sarif
 ```
 
+## Install with skills.sh
+
+Install through the open agent skills CLI:
+
+```bash
+npx skills add sokratisg/trivy-security-scan
+```
+
+List the skill before installing:
+
+```bash
+npx skills add sokratisg/trivy-security-scan --list
+```
+
+Install globally for a specific agent:
+
+```bash
+npx skills add sokratisg/trivy-security-scan --skill trivy-security-scan -g -a codex -y
+```
+
+Install into the current project for Codex:
+
+```bash
+npx skills add sokratisg/trivy-security-scan --skill trivy-security-scan -a codex -y
+```
+
 ## Install for Codex
 
 Install the skill from GitHub:
